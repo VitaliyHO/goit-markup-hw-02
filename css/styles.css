@@ -1,90 +1,147 @@
-
-:root{
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
     --accent-color: #2196F3;
-} 
-
-body{
-
+    --background-color: #2F303A;
 }
-ul{
+
+body {
+    color: var(--text-color);
+}
+
+h2,
+h3 {
+    color: var(--title-color);
+}
+
+ul {
     list-style: none;
     /*Стилі хедера*/
 }
-.logo {
-    color: var(--primary-text-color);
+
+a {
+    text-decoration: none;
 }
+
+.logo {
+    color: #000;
+}
+
 .logo-accent {
     color: var(--accent-color);
 }
+
 .nav-list {
+    color: var(--text-color);
 }
-.nav-list a:hover{
+
+.nav-list a {
+    color: var(--title-color);
+}
+
+.nav-list a:hover {
     color: var(--accent-color);
 }
-.contacts-list {
-}
-.contacts-list a:hover{
+
+.nav-list a:focus {
     color: var(--accent-color);
 }
-.studio {
+
+.contacts-list {}
+
+.contacts-list a {
+    color: var(--text-color);
 }
+
+.contacts-list a:hover {
+    color: var(--accent-color);
+}
+
+.contacts-list a:focus {
+    color: var(--accent-color);
+}
+
+.studio {}
+
 .hero {
+    background-color: var(--background-color);
 }
+
 .page-title {
+    color: #fff;
 }
+
 .button {
+    color: #fff;
+    background-color: var(--accent-color);
 }
-.preference {
-}
-.title {
-}
-.preference-list {
-}
-.preference-title {
-}
-.prefrence-text {
-}
-.our-work {
-}
-.our-work-list {
-}
-.work-image {
-}
+
+.preference {}
+
+.title {}
+
+.preference-list {}
+
+.preference-title {}
+
+.prefrence-text {}
+
+.our-work {}
+
+.our-work-list {}
+
+.work-image {}
+
 .team {
+    background-color: #F5F4FA;
 }
-.team-list {
+
+.team-list {}
+
+.team-item {}
+
+.subtitle {}
+
+.team-text {}
+
+footer {
+    background-color: var(--background-color);
 }
-.team-item {
+
+.logo-footer {
+    color: #fff;
 }
-.subtitle {
-}
-.team-text {
-}
-.adress {
-}
-.adress-list {
-}
+
+.adress {}
+
+.adress-list {}
+
 .adress-item {
+    color: #fff;
 }
+
 .adress-link {
+    color: rgba(255, 255, 255, 0.6);
 }
-.portfolio {
-}
-.filter-list {
-}
-.filter-item {
-}
-.filter-button {
-}
-.project-list {
-}
-.project-item {
-}
-.projects-image {
-}
-.project-title {
-}
-.project-text {
-}
+
+.portfolio {}
+
+.projects {}
+
+.projects-title {}
+
+.filter-list {}
+
+.filter-item {}
+
+.filter-button {}
+
+.project-list {}
+
+.project-item {}
+
+.projects-image {}
+
+.project-title {}
+
+.project-text {}
