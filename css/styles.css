@@ -1,0 +1,90 @@
+
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+} 
+
+body{
+
+}
+ul{
+    list-style: none;
+    /*Стилі хедера*/
+}
+.logo {
+    color: var(--primary-text-color);
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+.nav-list {
+}
+.nav-list a:hover{
+    color: var(--accent-color);
+}
+.contacts-list {
+}
+.contacts-list a:hover{
+    color: var(--accent-color);
+}
+.studio {
+}
+.hero {
+}
+.page-title {
+}
+.button {
+}
+.preference {
+}
+.title {
+}
+.preference-list {
+}
+.preference-title {
+}
+.prefrence-text {
+}
+.our-work {
+}
+.our-work-list {
+}
+.work-image {
+}
+.team {
+}
+.team-list {
+}
+.team-item {
+}
+.subtitle {
+}
+.team-text {
+}
+.adress {
+}
+.adress-list {
+}
+.adress-item {
+}
+.adress-link {
+}
+.portfolio {
+}
+.filter-list {
+}
+.filter-item {
+}
+.filter-button {
+}
+.project-list {
+}
+.project-item {
+}
+.projects-image {
+}
+.project-title {
+}
+.project-text {
+}
